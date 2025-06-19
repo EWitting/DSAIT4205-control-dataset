@@ -26,7 +26,7 @@ The values of interest are the logits f(x,y), and the true and predicted p(x) an
 
 ![joint table](figs/joint_table.png)
 
-To confirm wether the theory holds, it could be visualized that a standard classifier does correctly learn p(y|x), but that when interpreting the logits directly, they do not represent the joint distribution and marginal p(x). While this should indeed be the case for their proposed training procedure. 
+To confirm wether the theory holds, it could be visualized that a standard classifier does correctly learn p(y|x), but that when interpreting the logits directly, they do not represent the joint distribution and marginal p(x). While this should indeed be the case for their proposed training procedure. With the measures visualised as below.
 
 ![triple plot](figs/triple_plot.png)
 
